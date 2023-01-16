@@ -11,17 +11,11 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/carousel/">
     <link rel="stylesheet" href="./css/bootstrap.min.css" type="text/css">
-    <!-- <link href="/docs/5.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="./fontawesome-free-6.2.1-web/css/all.min.css" type="text/css">
 
-    <!-- Favicons
-<link rel="apple-touch-icon" href="/docs/5.2/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
-<link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
-<link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
-<link rel="manifest" href="/docs/5.2/assets/img/favicons/manifest.json">
-<link rel="mask-icon" href="/docs/5.2/assets/img/favicons/safari-pinned-tab.svg" color="#712cf9">
-<link rel="icon" href="/docs/5.2/assets/img/favicons/favicon.ico"> -->
+    <link rel="stylesheet" href="css/style.css">
+
 <meta name="theme-color" content="#712cf9">
-
 
     <style>
       .bd-placeholder-img {
@@ -89,7 +83,7 @@
   <header>
   <nav class="navbar navbar-expand-md navbar-light py-3 fixed-top shadow" style="background-color: #eeebe7;">
     <div class="container">
-      <a class="navbar-brand ms-2" href="#">Lakscreator</a>
+      <a class="navbar-brand text-muted ms-2" href="#">Lakscreator</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -97,19 +91,29 @@
     <div class="collapse navbar-collapse ms-4" id="navbarCollapse">
       <ul class="navbar-nav me-auto mb-2 mb-md-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          <a class="nav-link active text-muted link" aria-current="page" href="index.html">
+            Home
+          </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="tentangkami.html">Tentang Kami</a>
+          <a class="nav-link active text-muted link" aria-current="page" href="tentangkami.html">
+            Tentang Kami
+          </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Karya</a>
+          <a class="nav-link active text-muted link" aria-current="page" href="#">
+            Karya
+          </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Info</a>
+          <a class="nav-link active text-muted link" aria-current="page" href="#">
+            Info
+          </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Kontak</a>
+          <a class="nav-link active text-muted link" aria-current="page" href="#">
+            Kontak
+          </a>
         </li>
     </div>
   </nav>
@@ -199,49 +203,55 @@
 
     <hr class="featurette-divider">
 
-    <div data-aos="fade-up" data-aos-duration="1000" class="row featurette px-3">
-      <div class="col-md-7">
-        <h2 class="featurette-heading fw-normal lh-1">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
-        <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
+    <a href="" style="color:#333333; text-decoration:none;">
+      <div data-aos="fade-up" data-aos-duration="1000" class="row featurette px-3">
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-normal lh-1">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
+          <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="./image/292592188_133175712477956_2678465494237519897_n.jpg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/></img>
+        </div>
       </div>
-      <div class="col-md-5">
-        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="./image/292592188_133175712477956_2678465494237519897_n.jpg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/></img>
-      </div>
-    </div>
+    </a>
 
     <hr class="featurette-divider">
 
-    <div data-aos="fade-up" data-aos-duration="1000" class="row featurette px-3">
-      <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
-        <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
-      </div>
-      <div class="col-md-5 order-md-1">
-        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="./image/292520042_729753001436524_5836745174513064750_n.jpg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/></img>
+    <a href="" style="color:#333333; text-decoration:none;">
+      <div data-aos="fade-up" data-aos-duration="1000" class="row featurette px-3">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
+          <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="./image/292520042_729753001436524_5836745174513064750_n.jpg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/></img>
 
+        </div>
       </div>
-    </div>
+    </a>
 
     <hr class="featurette-divider">
 
-    <div class="row featurette px-3" data-aos="fade-up" data-aos-duration="1000">
-      <div class="col-md-7">
-        <h2 class="featurette-heading fw-normal lh-1">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-        <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
+    <a href="" style="color:#333333; text-decoration:none;">
+      <div class="row featurette px-3" data-aos="fade-up" data-aos-duration="1000">
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-normal lh-1">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+          <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="./image/292347572_1071577410426250_6867495320189782821_n.jpg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/></img>
+        </div>
       </div>
-      <div class="col-md-5">
-        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="./image/292347572_1071577410426250_6867495320189782821_n.jpg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/></img>
-      </div>
-    </div>
+    </a>
     <hr class="featurette-divider">
     <!-- /END THE FEATURETTES -->
   </div><!-- /.container -->
 
 
   <!-- FOOTER -->
-  <footer class="container">
-    <p class="float-end"><a href="#">Back to top</a></p>
-    <p>&copy; 2017–2022 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+  <footer class="container px-5">
+    <a href="#" class="float-end" style="color: inherit;"><i class="fa-regular fa-circle-up fa-xl"></i></a>
+    <p>&copy; 2022 Lakscreator. </p>
   </footer>
 </main>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
