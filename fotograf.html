@@ -16,6 +16,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
     <!-- <link href="/docs/5.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"> -->
 
     <!-- Favicons
@@ -93,7 +95,7 @@
   <header>
   <nav class="navbar navbar-expand-md navbar-light px-3 shadow-sm" style="background-color: #eeebe7;">
     <div class="container">
-      <a class="navbar-brand ms-2" href="#">Lakscreator</a>
+      <a class="navbar-brand ms-2 text-muted" href="#">Lakscreator</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -101,19 +103,36 @@
     <div class="collapse navbar-collapse ms-4" id="navbarCollapse">
       <ul class="navbar-nav me-auto mb-2 mb-md-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          <a class="nav-link active text-muted link" aria-current="page" href="index.html">
+            Home
+          </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="tentangkami.html">Tentang Kami</a>
+          <a class="nav-link active text-muted link" aria-current="page" href="tentangkami.html">
+            Tentang Kami
+          </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Karya</a>
+          <div class="dropdown">
+            <a class="nav-link active text-muted link dropdown-toggle" href="#" aria-current="page" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+              Karya
+            </a>
+          
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <li><a class="dropdown-item" href="fotograf.html">Fotograf</a></li>
+              <li><a class="dropdown-item" href="#">Video</a></li>
+            </ul>
+          </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Info</a>
+          <a class="nav-link active text-muted link" aria-current="page" href="#">
+            Info
+          </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Kontak</a>
+          <a class="nav-link active text-muted link" aria-current="page" href="#">
+            Kontak
+          </a>
         </li>
     </div>
   </nav>
@@ -124,44 +143,71 @@
   ================================================== -->
   <!-- Wrap the rest of the page in another container to center all the content. -->
 
-  <div class="container marketing mt-4">
+  <div class="container marketing mt-5">
+
     <!-- START THE FEATURETTES -->
 
-    <div data-aos="fade-up" data-aos-duration="1000" class="row featurette px-3">
-      <div class="col-md-7">
-        <h2 class="featurette-heading fw-normal lh-1">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
-        <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
+    <a href="" style="color:#333333; text-decoration:none;">
+      <div data-aos="fade-up" data-aos-duration="1000" class="row featurette px-3 my-5">
+        <div class="col-md-5 order-md-1 my-2">
+          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="./image/292520042_729753001436524_5836745174513064750_n.jpg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/></img>
+        </div>
+        <div class="col-md-7 order-md-2 my-2">
+          <h2 class="featurette-heading fw-normal lh-1">Ini judul.<span class="text-muted">deskripsi singkat</span></h2>
+        </div>
       </div>
-      <div class="col-md-5">
-        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="./image/292592188_133175712477956_2678465494237519897_n.jpg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/></img>
+    </a>
+
+    <hr class="featurette-divider">
+    <a href="" style="color:#333333; text-decoration:none;">
+      <div data-aos="fade-up" data-aos-duration="1000" class="row featurette px-3 my-5">
+        <div class="col-md-5 order-md-1 my-2">
+          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="./image/292520042_729753001436524_5836745174513064750_n.jpg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/></img>
+        </div>
+        <div class="col-md-7 order-md-2 my-2">
+          <h2 class="featurette-heading fw-normal lh-1">Ini judul. <span class="text-muted">deskripsi singkat</span></h2>
+        </div>
       </div>
-    </div>
+    </a>
+
+    <hr class="featurette-divider">
+    <a href="" style="color:#333333; text-decoration:none;">
+      <div data-aos="fade-up" data-aos-duration="1000" class="row featurette px-3 my-5">
+        <div class="col-md-5 order-md-1 my-2">
+          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="./image/292520042_729753001436524_5836745174513064750_n.jpg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/></img>
+        </div>
+        <div class="col-md-7 order-md-2 my-2">
+          <h2 class="featurette-heading fw-normal lh-1">Ini judul. <span class="text-muted">deskripsi singkat</span></h2>
+        </div>
+      </div>
+    </a>
+
+    <hr class="featurette-divider">
+    <a href="" style="color:#333333; text-decoration:none;">
+      <div data-aos="fade-up" data-aos-duration="1000" class="row featurette px-3 my-5">
+        <div class="col-md-5 order-md-1 my-2">
+          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="./image/292520042_729753001436524_5836745174513064750_n.jpg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/></img>
+        </div>
+        <div class="col-md-7 order-md-2 my-2">
+          <h2 class="featurette-heading fw-normal lh-1">Ini judul. <span class="text-muted">deskripsi singkat</span></h2>
+        </div>
+      </div>
+    </a>
+
+    <hr class="featurette-divider">
+    <a href="" style="color:#333333; text-decoration:none;">
+      <div data-aos="fade-up" data-aos-duration="1000" class="row featurette px-3 my-5">
+        <div class="col-md-5 order-md-1 my-2">
+          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="./image/292520042_729753001436524_5836745174513064750_n.jpg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/></img>
+        </div>
+        <div class="col-md-7 order-md-2 my-2">
+          <h2 class="featurette-heading fw-normal lh-1">Ini judul. <span class="text-muted">deskripsi singkat</span></h2>
+        </div>
+      </div>
+    </a>
 
     <hr class="featurette-divider">
 
-    <div data-aos="fade-up" data-aos-duration="1000" class="row featurette px-3">
-      <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
-        <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
-      </div>
-      <div class="col-md-5 order-md-1">
-        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="./image/292520042_729753001436524_5836745174513064750_n.jpg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/></img>
-
-      </div>
-    </div>
-
-    <hr class="featurette-divider">
-
-    <div class="row featurette px-3" data-aos="fade-up" data-aos-duration="1000">
-      <div class="col-md-7">
-        <h2 class="featurette-heading fw-normal lh-1">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-        <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
-      </div>
-      <div class="col-md-5">
-        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="./image/292347572_1071577410426250_6867495320189782821_n.jpg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/></img>
-      </div>
-    </div>
-    <hr class="featurette-divider">
     <!-- /END THE FEATURETTES -->
   </div><!-- /.container -->
 
