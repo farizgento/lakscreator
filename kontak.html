@@ -12,7 +12,7 @@
     <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/carousel/">
     <link rel="stylesheet" href="./css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="./fontawesome-free-6.2.1-web/css/all.min.css" type="text/css">
-
+    <link rel="stylesheet" href="font/Proxima-Nova-Reg.otf">
     <link rel="stylesheet" href="css/style.css">
     <!-- <link href="/docs/5.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"> -->
 
@@ -24,9 +24,12 @@
 <link rel="mask-icon" href="/docs/5.2/assets/img/favicons/safari-pinned-tab.svg" color="#712cf9">
 <link rel="icon" href="/docs/5.2/assets/img/favicons/favicon.ico"> -->
 <meta name="theme-color" content="#712cf9">
-
-
     <style>
+        p{
+            font-family:'Proxima-Nova-Reg';
+            font-size: medium;
+        }
+
       .bd-placeholder-img {
         font-size: 1.125rem;
         text-anchor: middle;
@@ -90,7 +93,7 @@
   <body style="height: 100%;">
     
   <header>
-  <nav class="navbar navbar-expand-md navbar-light py-3 fixed-top shadow" style="background-color: #eeebe7;">
+  <nav class="navbar navbar-expand-md navbar-light py-3 fixed-top my-3" style="background-color: #eeebe7;">
     <div class="container">
       <a class="navbar-brand text-muted ms-2" href="#">Lakscreator</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -125,22 +128,37 @@
     </div>
   </nav>
 </header>
+<br>
 
-<main class="mt-5 pt-5" style="min-height: 90%; position: relative;">
+<main class="mt-4 pt-5" style="min-height: 90%; position: relative;">
 
   <!-- Marketing messaging and featurettes
   ================================================== -->
   <!-- Wrap the rest of the page in another container to center all the content. -->
 
   <div class="container">
-      <!-- <p class="lead"></p> -->
-      <p class="pertama mx-5">Tentang Lakscreator</p>
-      <p class="mx-5" data-aos="fade-up" data-aos-delay="1000" data-aos-duration="850">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur ab quas esse! Sed eos, magnam, consequatur atque iure iusto sint sit, recusandae voluptates eligendi ab nihil dignissimos nulla. Sequi, iste!</p>
-      <p class="mx-5" data-aos="fade-up" data-aos-delay="1100" data-aos-duration="850">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur ab quas esse! Sed eos, magnam, consequatur atque iure iusto sint sit, recusandae voluptates eligendi ab nihil dignissimos nulla. Sequi, iste!</p>
+    <div class="row">
+        <div class="col-sm-6">
+            <h2 class="pertama mx-5">Berkarya Bersama Kami</h2>
+            <br>
+            <p class="mx-5" data-aos="fade-up" data-aos-delay="1000" data-aos-duration="850">
+                Rumah kami bertempat di Jakarta. Kami tak hanya merangkai cerita di Tanah Air, 
+                namun juga di berbagai belahan dunia lain. Akan sangat berarti jika kamu bersedia untuk membagikan waktu dan 
+                cerita hidupmu, bersama kami.
+            </p>
+            <hr class="featurette-divider mx-5">
+        </div>
+        <div class="col-md-6">
+            <h2 class="ketiga mx-5">Hubungi Kami</h2>
+            <br>
+            <p class="mx-5 mb-1" data-aos="fade-up" data-aos-delay="2000" data-aos-duration="850">EMAIL</p>
+            <p class="mx-5" data-aos="fade-up" data-aos-delay="2000" data-aos-duration="850">lakscreator@gmail.com</p>
+            
+            <p class="mx-5 mb-1" data-aos="fade-up" data-aos-delay="2000" data-aos-duration="850">WHATSAPP</p>
+            <p class="mx-5" data-aos="fade-up" data-aos-delay="2000" data-aos-duration="850">021391290218</p>
 
-    <!-- <div class="flex-shrink-0">
-      <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid" width="200" height="200" src="./image/292592188_133175712477956_2678465494237519897_n.jpg" role="img" aria-label="Placeholder: 200x200" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/></img>
-    </div> -->
+        </div>
+    </div>
   </div>
 
   <!-- FOOTER -->
@@ -169,6 +187,7 @@
       // gsap.to(".lead", {duration: 3, delay:1 ,text: "Tentang Lakscreator"});
       gsap.from(".pertama", {duration: 1.5, delay:0.5 ,text: ""});
       gsap.from(".kedua", {duration: 4, delay:2 ,text: ""});
+      gsap.from(".ketiga", {duration: 2, delay:2 ,text: ""});
     </script>
     
   <script>
